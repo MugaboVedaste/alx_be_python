@@ -4,6 +4,7 @@ def main():
     # Using the static method
     sum_result = Calculator.add(10, 5)
     print(f"The sum is: {sum_result}")
+    Calculator.display_calculation_type()
 
     # Using the class method
     product_result = Calculator.multiply(10, 5)
